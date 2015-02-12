@@ -89,8 +89,8 @@ public class ForecastFragment extends Fragment implements LoaderCallbacks<Cursor
     public static final int COL_WEATHER_DESC = 2;
     public static final int COL_WEATHER_MAX_TEMP = 3;
     public static final int COL_WEATHER_MIN_TEMP = 4;
-    public static final int COL_LOCATION_SETTING = 5;
-    public static final int COL_WEATHER_CONDITION_ID = 6;
+    public static final int COL_LOCATION_SETTING = 6;
+    public static final int COL_WEATHER_CONDITION_ID = 5;
     public static final int COL_COORD_LONG = 7;
     public static final int COL_COORD_LAT = 8;
 

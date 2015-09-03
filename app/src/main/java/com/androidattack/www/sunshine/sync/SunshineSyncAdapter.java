@@ -270,7 +270,7 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
                 String yesterdayDate = WeatherContract.getDbDateString(calendar.getTime());
                 getContext().getContentResolver().delete(
                         WeatherEntry.CONTENT_URI,
-                        WeatherEntry.COLUMN_DATETEXT + "<=",
+                        WeatherEntry.COLUMN_DATETEXT + "<= ",
                         new String[]{yesterdayDate}
                 );
 
